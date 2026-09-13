@@ -10,6 +10,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
 	userInterfaceStyle: "automatic",
 	ios: {
 		icon: "./assets/images/app-icons/ios/light.png",
+		bundleIdentifier: "com.semisquircle.diditakemymeds",
+		config: {
+			usesNonExemptEncryption: false,
+		},
 	},
 	android: {
 		adaptiveIcon: {
