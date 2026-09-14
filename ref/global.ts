@@ -8,7 +8,9 @@ import { create } from "zustand";
 
 //* Geometry
 export const ui = {
-	palette: ["#ffffff", "#000000", "#0008", "#ff453a"],
+	// palette: ["#f6ffea", "#ffde97", "#fa855a", "#ca3537", "#61c4db"],
+	// palette: ["#61c4db", "#f6ffea", "#ffde97", "#fa855a", "#ca3537"],
+	palette: ["#e09f3f", "#fdf2b0", "#9f2b2c", "#355d67"],
 	animDuration: 200,
 	btnAnimDuration: 100,
 	alertYes: "Continue",
@@ -18,7 +20,7 @@ export const ui = {
 export const screen = {
 	width: Dimensions.get("window").width,
 	height: Dimensions.get("window").height,
-	horizPadding: 10,
+	horizPadding: 15,
 };
 
 export const useReactiveGeometry = () => {
